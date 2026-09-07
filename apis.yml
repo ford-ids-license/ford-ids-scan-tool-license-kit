@@ -1,0 +1,164 @@
+aid: fordpass
+name: FordPass / Ford Pro
+description: >-
+  FordPass is Ford Motor Company's consumer connected-vehicle mobile app and
+  service platform for Ford and Lincoln owners, exposing remote start/stop,
+  remote lock/unlock, vehicle status (fuel/charge, tire pressure, oil life,
+  odometer, location), Vehicle Health alerts, BlueCruise hands-free driving,
+  Wi-Fi hotspot, Phone As A Key, scheduled service, and roadside assistance via
+  the embedded FordPass Connect 4G LTE modem. Ford Pro is Ford's commercial
+  fleet brand spanning Ford Pro Telematics, Ford Pro Intelligence, Ford Pro
+  E-Telematics for EVs, Ford Pro Charging, Ford Pro FinSimple, and dealer/upfit
+  services. The Ford Developer Marketplace (developer.ford.com) hosts Ford's
+  partner-facing API program — FordConnect Query API for consumer-vehicle data
+  and remote command access (with vehicle-owner consent via FordPass account
+  OAuth), plus a Ford Pro REST API surface for fleets including Vehicle
+  Status, Vehicle Historical Status, Vehicle Metadata, Vehicle Efficiency
+  (fuel/energy/idle), Driver Behavior, Trip Reports, and Vehicle Health.
+  Ford Pro Telematics is integrated with Geotab, Fleetio, Samsara, Motive,
+  Verizon Connect, and other fleet platforms, and Smartcar offers a consumer
+  OAuth bridge to Ford vehicles using FordPass Connect credentials. Access to
+  Ford APIs is gated behind a partner application and credentials issued
+  through the Ford Developer Portal; Ford has periodically restricted
+  individual-developer access. No public OpenAPI specification is published
+  outside the partner portal, so this profile documents the Ford developer
+  surface as an index without a generated machine-readable contract.
+type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+position: Provider
+access: Partner
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fordpass.png
+tags:
+  - Automotive
+  - Connected Vehicle
+  - Connected Car
+  - Telematics
+  - Fleet
+  - Fleet Management
+  - Vehicle Data
+  - Vehicle Health
+  - Remote Commands
+  - OEM
+  - Mobility
+  - FordPass
+  - Ford Pro
+  - FordConnect
+  - BlueCruise
+  - Electric Vehicles
+  - EV Charging
+  - Phone As A Key
+  - Sync
+tags_raw:
+  - Automotive
+  - Connected Vehicle
+  - Connected Car
+  - Telematics
+  - Fleet
+  - Fleet Management
+  - Vehicle Data
+  - Vehicle Health
+  - Remote Commands
+  - OEM
+  - Mobility
+  - FordPass
+  - Ford Pro
+  - FordConnect
+  - BlueCruise
+  - Electric Vehicles
+  - EV Charging
+  - Phone As A Key
+  - SYNC
+url: https://raw.githubusercontent.com/api-evangelist/fordpass/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.23'
+apis: []
+common:
+  - type: DomainSecurity
+    url: security/fordpass-domain-security.yml
+  - type: Website
+    url: https://www.ford.com
+  - type: Portal
+    url: https://developer.ford.com/
+  - type: Portal
+    url: https://developerportal.ford.com/
+  - type: APIs
+    url: https://developer.ford.com/apis
+  - type: UseCases
+    url: https://developer.ford.com/use-cases/connect-ford-to-daily-tracking-apps
+  - type: Product
+    url: https://www.ford.com/technology/connected-services/
+  - type: Product
+    url: https://www.ford.com/support/category/ford-app/
+  - type: Product
+    url: https://www.ford.com/support/category/fordpass/fordpass-sync-connect/
+  - type: Product
+    url: https://www.fordpro.com/en-us/
+  - type: Product
+    url: https://www.fordpro.com/en-us/intelligence/
+  - type: Product
+    url: https://www.fordpro.com/en-us/intelligence/data-services/
+  - type: Product
+    url: https://www.fordpro.com/en-us/telematics/
+  - type: Product
+    url: https://www.fordpro.com/en-us/products/
+  - type: ChangeLog
+    url: https://www.fordpro.com/en-us/intelligence/release-notes/january-2025/
+  - type: ChangeLog
+    url: https://www.fordpro.com/en-us/intelligence/release-notes/december-2025/
+  - type: Pricing
+    url: https://www.fordpro.com/en-us/telematics/
+  - type: AppStore
+    url: https://apps.apple.com/us/app/ford/id1095418609
+  - type: GitHubOrganization
+    url: https://github.com/ford
+  - type: Twitter
+    url: https://twitter.com/Ford
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ford-motor-company
+  - type: YouTube
+    url: https://www.youtube.com/@ford
+  - type: Newsroom
+    url: https://media.ford.com/
+  - type: Newsroom
+    url: https://www.fordpro.com/en-us/insights/
+  - type: PrivacyPolicy
+    url: https://www.ford.com/help/privacy/
+  - type: TermsOfService
+    url: https://www.ford.com/help/terms-conditions/
+  - type: Support
+    url: https://www.ford.com/support/
+  - type: Support
+    url: https://www.fordpro.com/en-us/support/
+  - type: Integrations
+    url: https://www.high-mobility.com/car-api/ford-data-api
+  - type: Integrations
+    url: https://smartcar.com/brand/ford
+  - type: Integrations
+    url: https://help.fleetio.com/telematicsgps/ford-pro-telematics-integration
+  - type: Integrations
+    url: https://www.geotab.com/ford/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

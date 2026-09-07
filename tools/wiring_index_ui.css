@@ -1,0 +1,28 @@
+.wire-tabs{display:flex;gap:3px;margin:0 0 8px}
+.wire-tabs button{flex:1;border:1px solid #9aa;background:#dce5e9;padding:5px;cursor:pointer}
+.wire-tabs button.active{background:#fff;border-bottom-color:#fff;font-weight:bold;color:#900}
+#wire-index-pane,#wire-details-pane{display:none}
+#wire-search{box-sizing:border-box;width:100%;padding:6px;border:1px solid #9aa}
+#wire-filters{display:flex;flex-wrap:wrap;gap:4px;margin:7px 0}
+#wire-filters button{font-size:11px;padding:3px 5px;border:1px solid #abc;background:#fff;cursor:pointer}
+#wire-filters button.active{background:#036;color:#fff}
+.wire-result{padding:6px;border-bottom:1px solid #d5dadd;cursor:pointer;overflow-wrap:anywhere}
+.wire-result:hover,.wire-result.selected{background:#dceff6}
+.wire-result .kind{float:right;color:#68747a;font-size:10px;text-transform:uppercase}
+.wire-result small{display:block;color:#667;margin-top:2px}
+.wire-section{margin:9px 0;border-top:1px solid #ccd;padding-top:6px}
+.wire-section h4{margin:0 0 4px;color:#555;font-size:11px;text-transform:uppercase}
+.wire-detail-head h3{margin:3px 0;color:#036}
+.wire-detail-head .kind{color:#68747a;text-transform:uppercase;font-size:10px}
+.wire-actions{display:flex;flex-wrap:wrap;gap:4px;margin:7px 0}
+.wire-actions button,.wire-link{font-size:11px;color:#0645ad;border:0;background:none;padding:1px 0;cursor:pointer;text-align:left}
+.wire-actions button{border:1px solid #9ab;background:#fff;padding:4px 6px}
+.wire-unavailable{color:#888}
+.wire-loc,.wire-ref,.wire-related{padding:4px 0;border-bottom:1px solid #e2e5e7}
+.wire-pins{border-collapse:collapse;width:100%;font-size:10px}
+.wire-pins th,.wire-pins td{border:1px solid #ccd;padding:2px 3px;text-align:left;vertical-align:top}
+.wire-pins th{background:#e4e8ea}
+.wire-meta{display:grid;grid-template-columns:max-content 1fr;gap:2px 6px;font-size:11px}
+.wire-meta b{color:#555}
+.wire-count{color:#667;font-size:11px;margin:5px 0}
+
